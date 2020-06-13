@@ -18,31 +18,31 @@ Extract the WEATHER_CONVERTER.zip file and unzip the file in C:\ Drive. After ex
 	<b>b. DAILY_GRID_DATA</b>
 		This folder contains the daily data downloaded from <b>http://www.imdpune.gov.in/Seasons/Temperature/temp.html</b>
 
-		it has three subfolders
-		<b>1. MAXIMUM</b>-for storing maximum gridded data
-		<b>2. MINIMUM</b>-for storing minimum gridded data
-		<b>3. RAINFALL</b>-for storing Rainfall gridded data
+it has three subfolders
+	<b>1. MAXIMUM</b>-for storing maximum gridded data
+	<b>2. MINIMUM</b>-for storing minimum gridded data
+	<b>3. RAINFALL</b>-for storing Rainfall gridded data
 
-		If you already have the data you can place it here else use the DOWNLOAD_DAILY_GRID_DATA.pyc file to download the data. It will store automatically in the folder assigned.
+If you already have the data you can place it here else use the DOWNLOAD_DAILY_GRID_DATA.pyc file to download the data. It will store automatically in the folder assigned.
 
-	<b>c. DATA_CROP_MODEL</b>
-		This folder saves the DSSAT weather files
+<b>c. DATA_CROP_MODEL</b>
+	This folder saves the DSSAT weather files
 
-	<b>d. STATION_LIST</b>
-		We have to prepare an excel sheet for each state. The state may contain different grids
-		Eg:- A sample file is mentioned below
+<b>d. STATION_LIST</b>
+	We have to prepare an excel sheet for each state. The state may contain different grids
+	Eg:- A sample file is mentioned below
 
-		<b>STATION:-</b> is the Weather station or GRID name
+<b>STATION:-</b> is the Weather station or GRID name
 
-		<b>WCODE:-</b> is the weather station code that will be assigned to the weather file ( it will be a specific grid or specific location or weather station)
+<b>WCODE:-</b> is the weather station code that will be assigned to the weather file ( it will be a specific grid or specific location or weather station)
 
-		<b>LATITUDE:–</b> Assign the latitude for the location
+<b>LATITUDE:–</b> Assign the latitude for the location
 
-		<b>LONGITUDE:–</b> Assign the longitude for the location
+<b>LONGITUDE:–</b> Assign the longitude for the location
 
-		<b>ELEVATION:–</b> It’s the above sea level 
-		<b>Script</b>
-		<b>• DAILY_WEATHER:- </b>it will convert the gridded data to the DSSAT model format
+<b>ELEVATION:–</b> It’s the above sea level 
+<b>Script</b>
+<b>• DAILY_WEATHER:- </b>it will convert the gridded data to the DSSAT model format
 		File
 		<b>• LIST.txt:- </b> we have to assign which states or which location has to run  and the location excel sheet name should be same as mentioned in the LIST.txt
 <b>b. IMD_GRIDDED_1980_2015</b>
@@ -50,8 +50,8 @@ Extract the WEATHER_CONVERTER.zip file and unzip the file in C:\ Drive. After ex
 	<b>a. DSSAT_WEATHER</b>
 		This folder saves the DSSAT weather files
 
-	<b>b. GRID_DATA</b>
-	This folder contains the yearly data downloaded which can be downloaded from 
+<b>b. GRID_DATA</b>
+This folder contains the yearly data downloaded which can be downloaded from 
 		<b>http://www.imdpune.gov.in/Clim_Pred_LRF_New/Grided_Data_Download.html</b>
 		The rainfall data is available at 0.250X 0.250 from 1901 to 2019
 		The temperature data is available at 10X 10 from 1901 to 2019, if you want data at 0.50X 0.50, we have to put a request to IMD, Pune
@@ -60,23 +60,23 @@ Extract the WEATHER_CONVERTER.zip file and unzip the file in C:\ Drive. After ex
 			2. MinT-for storing minimum gridded data
 			3. Rainfall-for storing Rainfall gridded data
 
-	<b>c. STATION_LIST</b>
+<b>c. STATION_LIST</b>
 		We have to prepare an excel sheet for each state. The state may contain different grids
 
-		<b>STATION:-</b> is the Weather station or GRID name
+<b>STATION:-</b> is the Weather station or GRID name
 		<b>WCODE:-</b> is the weather station code that will be assigned to the weather file ( it will be a specific grid or specific location or weather station)
 		<b>LATITUDE:–</b> Assign the latitude for the location
 		<b>LONGITUDE:–</b> Assign the longitude for the location
 		<b>ELEVATION:–</b> It’s the above sea level 
 	
-	<b>ScriptM</b>
+<b>ScriptM</b>
 		<b>• DAILY_WEATHER:-</b> it will convert the gridded data to the DSSAT model format
 	<b>File</b>
 		<b>• LIST.txt:-</b> we have to assign which states or which location has to run  and the location excel sheet name should be same as mentioned in the LIST.txt
 
-	DSSAT soil at 10km can be downloaded from
+DSSAT soil at 10km can be downloaded from
 	<b>https://dataverse.harvard.edu/file.xhtml?persistentId=doi:10.7910/DVN/1PEEY0/CIMWRJ&version=2.6 </b>
 
-	0.250 X 0.250 shapefile is included in the github , with State name, District name, DSSAT soil ID, unique Weather code, Latitude and Longitude, altitude and Nitrogen amount
-	</font><br />
+0.250 X 0.250 shapefile is included in the github , with State name, District name, DSSAT soil ID, unique Weather code, Latitude and Longitude, altitude and Nitrogen amount
+</font><br />
 	</body>
